@@ -1,3 +1,3 @@
-FROM mdelapenya/liferay-portal:7-ce-ga4-tomcat-hsql
+FROM mdelapenya/liferay-portal:6.2-ce-ga6-tomcat-hsql
 
-COPY portal-ext.properties /usr/local/liferay-ce-portal-7.0-ga4
+COPY portal-ext.properties /usr/local/liferay-portal-6.2-ce-ga6
